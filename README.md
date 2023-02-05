@@ -9,5 +9,9 @@ it is to reduce words to their base/root word but this may produce some meaningl
 ## Lemmatization: 
 This is same as stemming but it converts words into their base word that are meaningful.
 The use of stemming and lematization depends on the use case whether exact root word needs to be preserved or not.
-## Bag of Words(BOW): 
+## Encoding Techniques: 
 This is used to convert words into vectors/features
+  ## a. Bag of Words(BOW):
+  This is one of the techniques to convert words into vectors. However missing semantic meaning and high sparsity are the problems posed by this method.
+  ## b. TF-IDF (Term Frequency-Inverse Document Frequency):
+  This method can resolve the issue of missing semantic meaning as this captures the semantic meaning or the relation between two words to see if they are semantically similar or not. This help NLP models to determine the context and intent of the text.
