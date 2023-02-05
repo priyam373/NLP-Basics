@@ -14,4 +14,4 @@ This is used to convert words into vectors/features
   ## a. Bag of Words(BOW):
   This is one of the techniques to convert words into vectors. However missing semantic meaning and high sparsity are the problems posed by this method.
   ## b. TF-IDF (Term Frequency-Inverse Document Frequency):
-  This method can resolve the issue of missing semantic meaning as this captures the semantic meaning or the relation between two words to see if they are semantically similar or not. This help NLP models to determine the context and intent of the text.
+  This method can resolve the issue of missing semantic meaning as this captures the semantic meaning or the relation between two words to see if they are semantically similar or not. This help NLP models to determine the context and intent of the text. frequent words have less weightage and rare words have high weightage in this method. The reason being rare words are helpful in distinguishing one sentences from others. Therefore, they are given more weights.
